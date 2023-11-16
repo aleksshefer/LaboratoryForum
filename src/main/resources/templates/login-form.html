@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Войти</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+
+    <form class="row g-3" method="post" action="/login">
+
+        <div class="mb-3">
+            <label class="visually-hidden">Имя пользователя</label>
+            <input class="form-control" name="userName" placeholder="Имя пользователя">
+        </div>
+
+        <div class="mb-3">
+            <label class="visually-hidden">Пароль</label>
+            <input class="form-control" name="password" placeholder="Пароль">
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary mb-3">Войти</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

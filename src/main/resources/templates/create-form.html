@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Создать темы</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+
+    <form class="row g-3" method="post" action="/create">
+
+        <div class="mb-3">
+            <label class="visually-hidden">Название темы</label>
+            <input class="form-control" name="topicName" placeholder="Название темы">
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary mb-3">Сохранить тему</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
